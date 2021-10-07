@@ -17,7 +17,7 @@
 defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
 
 // Support for PHP translations.
-load_plugin_textdomain( 'avidly-block-static', false, basename( dirname( __FILE__ ) ) . '/languages/' );
+load_plugin_textdomain( 'avidly-block-static', false, basename( dirname( __FILE__ ) ) . '/languages' );
 
 // Require PHP files.
 require plugin_dir_path( __FILE__ ) . 'inc/helpers.php';
@@ -28,7 +28,7 @@ require plugin_dir_path( __FILE__ ) . 'inc/helpers.php';
  * Behind the scenes, it registers also all assets so they can be enqueued
  * through the block editor in the corresponding context.
  *
- * @see https://developer.wordpress.org/block-editor/tutorials/block-tutorial/writing-your-first-block-type/
+ * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/
  */
 add_action(
 	'init',
