@@ -73,11 +73,11 @@ fi
 while true; do
 read -p "6) Is following information correct?
 
-name: ${bold}${coral}$name${txtreset} (Default: $default_name)
+plugin name: ${bold}${coral}$name${txtreset} (Default: $default_name)
 id: ${bold}${coral}$id${txtreset} (Default: $default_id)
 prefix: ${bold}${coral}$prefix${txtreset} (Default: $default_prefix)
 package: ${bold}${coral}$package${txtreset} (Default: $default_package)
-package: ${bold}${coral}$block_name${txtreset} (Default: $default_block_name)
+block name: ${bold}${coral}$block_name${txtreset} (Default: $default_block_name)
 
 Proceed to install? [y/N]
 " yn
