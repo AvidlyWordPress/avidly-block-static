@@ -1,0 +1,22 @@
+{
+	"apiVersion": 2,
+	"name": "avidly-block/static",
+	"version": "0.1.0",
+	"title": "Static Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block based on WordPress Block Editor Handbook, Create a Block Tutorial.",
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"anchor": true,
+		"color": true
+	},
+	"textdomain": "avidly-block-static",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
