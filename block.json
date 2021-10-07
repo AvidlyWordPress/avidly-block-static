@@ -2,7 +2,7 @@
 	"apiVersion": 2,
 	"name": "avidly-block/static",
 	"version": "0.1.0",
-	"title": "Static Block",
+	"title": "Avidly Static Block",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Example block based on WordPress Block Editor Handbook, Create a Block Tutorial.",

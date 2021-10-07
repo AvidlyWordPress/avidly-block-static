@@ -95,6 +95,9 @@ Almost done! Running the setup:
 # PHP files
 find "$basedir_all_files" -name '*.php' -type f -exec perl -p -i -e "s|$default_name|$name|g" {} \;
 
+# JSON files
+find "$basedir_all_files" -name '*.json' -type f -exec perl -p -i -e "s|$default_name|$name|g" {} \;
+
 # Language files
 find "$languagedir" -name '*.pot' -type f -exec perl -p -i -e "s|$default_name|$name|g" {} \;
 find "$languagedir" -name '*.po' -type f -exec perl -p -i -e "s|$default_name|$name|g" {} \;
